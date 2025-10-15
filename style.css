@@ -1,0 +1,33 @@
+:root {
+    --color-primary: #1e3a8a;
+    /* Deep Blue */
+    --color-accent: #fbbf24;
+    /* Amber/Gold */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    /* Light Gray Background */
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+.border-accent {
+    border-color: var(--color-accent);
+}
+
+.cta-button {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
